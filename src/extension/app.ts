@@ -590,7 +590,7 @@ class App {
             this.editor[m.index]?.destroy();
             this.editor[m.index] = null;
         });
-        GLib.file_set_contents(this.layoutsPath, JSON.stringify(this.layouts));
+        GLib.file_set_contents(this.layoutsPath, JSON.stringify(this.layouts, null, 2));
         log(JSON.stringify(this.layouts));
 
         var windows = WorkspaceManager.get_active_workspace().list_windows();
