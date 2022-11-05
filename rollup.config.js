@@ -27,6 +27,7 @@ export default defineConfig([
                     { src: 'LICENSE', dest: 'dist/' },
                     { src: 'src/metadata.json', dest: 'dist/' },
                     { src: 'src/layouts-default.json', dest: 'dist/' },
+                    { src: 'src/layouts.json', dest: 'dist/' },
                     { src: 'src/stylesheet.css', dest: 'dist/' },
                     { src: 'src/images', dest: 'dist/' },
                     { src: 'src/schemas/gschemas.compiled', dest: 'dist/schemas' },
